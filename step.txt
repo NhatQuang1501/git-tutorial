@@ -8,4 +8,9 @@ git log
 {connect local with github repo}
 git remote add origin <link repo>
 git branch -m main
+{ (Neu tren nhanh main cua repo co thay doi chua duoc tich hop)
+    git pull origin main --rebase
+    git add <file>
+    git rebase --continue
+}
 git push -u origin main
